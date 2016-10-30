@@ -1,5 +1,5 @@
 require 'sonos/topology_node'
-require 'frisky'
+require 'frisky/ssdp'
 
 #
 # Inspired by https://github.com/rahims/SoCo, https://github.com/turboladen/upnp,
