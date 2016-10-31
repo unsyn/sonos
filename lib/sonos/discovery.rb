@@ -20,8 +20,9 @@ module Sonos
     attr_reader :first_device_ip
     attr_reader :default_ip
 
-    def initialize(timeout = DEFAULT_TIMEOUT)
+    def initialize(timeout = DEFAULT_TIMEOUT, first_device_ip = nil)
       @timeout = timeout
+      @first_device_ip = first_device_ip
     end
 
     # Look for Sonos devices on the network and return the first IP address found
